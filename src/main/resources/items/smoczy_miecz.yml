@@ -1,0 +1,16 @@
+id: smoczy_miecz
+material: NETHERITE_SWORD
+display-name: "&d&lSmoczy miecz"
+lore:
+  - ''
+  - '&8» &7Posiada on możliwość strzelania'
+  - '&8» &dperłami kresu'
+  - ''
+custom-model-data: 1
+enchantments:
+  SHARPNESS: 6
+  FIRE_ASPECT: 2
+  UNBREAKING: 3
+flags:
+  - HIDE_ENCHANTS
+cooldown: 60
