@@ -1,0 +1,10 @@
+id: kostka_rubika
+material: PLAYER_HEAD
+display-name: "&e&lKostka rubika"
+lore:
+  - '&8» &7Dzień dziecka 2024'
+  - ''
+  - '&8» &7Uderz gracza → jego hotbar się przemiesza!'
+  - ''
+skull-owner: # skin już wgrany wcześniej
+cooldown: 60
