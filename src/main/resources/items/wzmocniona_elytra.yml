@@ -1,0 +1,20 @@
+id: wzmocniona_elytra
+material: ELYTRA
+display-name: "&5&lWzmocniona elytra"
+lore:
+  - ' &8» &7Jest to przedmiot zdobyty podczas'
+  - ' &8» &fWielkanocnego Wydarzenia (2025)&7!'
+  - ' '
+  - ' &8» &7Po naładowaniu do &f100%&7, uderzenie w ziemię'
+  - ' &8» &7zadaje &c8 serc &7obrażeń w promieniu 5 kratek!'
+  - ' '
+custom-model-data: 1
+unbreakable: true
+flags:
+  - HIDE_UNBREAKABLE
+charge:
+  per-10-blocks: 5
+  damage: 16
+  radius: 5
+  cooldown-per-player: 3
+subtitle-victim: "&7Gracz &f%player% &7wleciał &bwzmocnioną elytrą&7!"
