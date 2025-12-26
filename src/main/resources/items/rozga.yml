@@ -1,0 +1,16 @@
+id: rozga
+material: STICK
+display-name: "&6Rózga"
+lore:
+  - '&8» &7Jest to przedmiot z:'
+  - '&8» &feventu świątecznego (2023)'
+  - ''
+  - '&8» &cOdrzuca &7z potężną siłą'
+  - '&8» &7niegrzecznych graczy!'
+custom-model-data: 0
+unbreakable: true
+enchantments:
+  KNOCKBACK: 4
+flags:
+  - HIDE_ENCHANTS
+  - HIDE_UNBREAKABLE
