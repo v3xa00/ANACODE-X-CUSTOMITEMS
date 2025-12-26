@@ -1,0 +1,13 @@
+id: wedka_nielota
+material: FISHING_ROD
+display-name: "&5&lWędka nielota"
+lore:
+  - '&8» &7Dzień dziecka 2024'
+  - ''
+  - '&8» &7Złapany gracz nie może latać elytrą przez 12s'
+  - ''
+custom-model-data: 2
+unbreakable: true
+flags:
+  - HIDE_UNBREAKABLE
+cooldown: 30
