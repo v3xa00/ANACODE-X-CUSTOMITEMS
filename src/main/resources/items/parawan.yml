@@ -1,0 +1,11 @@
+id: parawan
+material: FEATHER
+display-name: "&e&lParawan"
+lore:
+  - '&8» &7Wakacje 2024'
+  - ''
+  - '&8» &7Odpycha graczy + blindness + slowness'
+  - ''
+custom-model-data: 1
+subtitle-attacker: "&7Odrzuciłeś wszystkich graczy w pobliżu!"
+subtitle-victim: "&7Zostałeś odrzucony!"
