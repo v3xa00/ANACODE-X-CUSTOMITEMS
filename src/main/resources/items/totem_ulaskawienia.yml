@@ -1,0 +1,10 @@
+id: totem_ulaskawienia
+material: TOTEM_OF_UNDYING
+display-name: "&5&lTotem ułaskawienia"
+lore:
+  - '&8» &7Jest to przedmiot z:'
+  - '&8» &feventu halloween (2023)'
+  - ''
+  - '&8» &7Trzymając go po śmierci &dnie'
+  - '&8» &dstracisz &7swoich przedmiotów'
+custom-model-data: 1
