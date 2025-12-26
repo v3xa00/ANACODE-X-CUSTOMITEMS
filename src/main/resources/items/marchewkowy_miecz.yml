@@ -1,0 +1,15 @@
+id: marchewkowy_miecz
+material: GOLDEN_SWORD
+display-name: "&6Marchewkowy miecz"
+lore:
+  - ''
+  - '&8» &7Dzięki niemu możesz &bzamrozić &7przeciwnika'
+  - '&8» &7po &cuderzeniu &7na &a1 sekundę&7!'
+  - ''
+custom-model-data: 1
+unbreakable: true
+flags:
+  - HIDE_UNBREAKABLE
+cooldown: 60
+subtitle-attacker: "&7Zamroziłeś gracza &f%victim%&7!"
+subtitle-victim: "&7Zostałeś &bzamrożony&7!"
