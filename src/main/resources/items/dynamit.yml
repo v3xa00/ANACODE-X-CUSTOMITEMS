@@ -1,0 +1,7 @@
+id: dynamit
+material: RED_CANDLE
+display-name: "&4&lDynamit"
+lore:
+  - '&8» &7Niszczy bedrock (oprócz dolnej warstwy)'
+  - ''
+custom-model-data: 523
