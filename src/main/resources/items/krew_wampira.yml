@@ -1,0 +1,13 @@
+id: krew_wampira
+material: BEETROOT_SOUP
+display-name: "&c&lKrew wampira"
+lore:
+  - ''
+  - '&8» &7Jest to przedmiot z:'
+  - '&8» &feventu halloween (2023)'
+  - ''
+  - '&8» &7Po kliknięciu uleczy Cię'
+  - '&8» &7do &cpełnego HP&7!'
+  - ''
+custom-model-data: 1
+subtitle-use: "&7Zostałeś uleczony!"
