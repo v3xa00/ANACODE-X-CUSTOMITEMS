@@ -1,0 +1,9 @@
+id: wampirze_jablko
+material: ENCHANTED_GOLDEN_APPLE
+display-name: "&c&lWampirze jabłko"
+lore:
+  - '&8» &7Halloween 2024'
+  - ''
+  - '&8» &7Dodatkowa Siła II na 6 sekund'
+  - ''
+custom-model-data: 1
