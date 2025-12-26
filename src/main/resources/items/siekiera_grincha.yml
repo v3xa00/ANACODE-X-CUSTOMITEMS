@@ -1,0 +1,20 @@
+id: siekiera_grincha
+material: GOLDEN_AXE
+display-name: "&2Siekiera Grincha"
+lore:
+  - ''
+  - '&8» &7Jest to przedmiot z:'
+  - '&8» &feventu świątecznego (2023)'
+  - ''
+  - '&8» &7Po &auderzeniu &7strzela &fpiorun'
+  - '&8» &7w przeciwnika zabierając mu &c30% &7życia!'
+  - ''
+custom-model-data: 1
+unbreakable: true
+enchantments:
+  EFFICIENCY: 5
+flags:
+  - HIDE_UNBREAKABLE
+cooldown: 60
+subtitle-attacker: "&7Uderzyłeś gracza &f%victim% &asiekierą grincza!"
+subtitle-victim: "&7Zostałeś uderzony &asiekierą grincza&7!"
