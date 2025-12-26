@@ -1,0 +1,17 @@
+id: wedka_surferka
+material: FISHING_ROD
+display-name: "&b&lWędka surferka"
+lore:
+  - ''
+  - '&8» &7Jest to przedmiot z:'
+  - '&8» &feventu wakacyjnego (2023)'
+  - ''
+  - '&8» &7Ta &aniezwykła &7wędka zapewnia ci'
+  - '&8» &7zdumiewającą zdolność przyciągania się'
+  - '&8» &7do &bbloków &7i &dgraczy&7!'
+  - ''
+custom-model-data: 1
+unbreakable: true
+flags:
+  - HIDE_UNBREAKABLE
+cooldown: 15
