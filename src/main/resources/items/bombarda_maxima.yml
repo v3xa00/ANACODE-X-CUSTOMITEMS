@@ -1,0 +1,9 @@
+id: bombarda_maxima
+material: FIRE_CHARGE
+display-name: "&5&lBombarda maxima"
+lore:
+  - '&8» &7Karnet wakacyjny 2024'
+  - ''
+  - '&8» &7Fireball niszczący teren w promieniu 3 kratek'
+  - ''
+custom-model-data: 1
