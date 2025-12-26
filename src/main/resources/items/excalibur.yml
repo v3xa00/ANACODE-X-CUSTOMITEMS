@@ -1,0 +1,19 @@
+id: excalibur
+material: NETHERITE_SWORD
+display-name: "&e&lExcalibur"
+lore:
+  - ''
+  - '&8» &7Jest to przedmiot zdobyty z'
+  - '&8» &fwydarzenia wakacyjnego 2024&7!'
+  - ''
+  - '&8» &7Aktualnie zabójstw: &f0'
+  - '&8» &f&m----------&r &e0%'
+  - ''
+  - '&8» &7Obrażenia od ataku: &f11.5'
+  - ''
+custom-model-data: 5
+unbreakable: true
+progression:
+  max-kills: 100
+  damage-per-2-kills: 0.01
+  base-damage: 11.5
