@@ -1,0 +1,11 @@
+id: zlamane_serce
+material: PURPLE_DYE
+display-name: "&5&lZłamane serce"
+lore:
+  - '&8» &7Walentynki 2025'
+  - ''
+  - '&8» &7Slow Falling na 10 sekund'
+  - ''
+custom-model-data: 56463534
+subtitle-attacker: "&7Złamałeś &dserce &7gracza: &f%victim%&7!"
+subtitle-victim: "&7Twoje &dserce &7zostało złamane!"
