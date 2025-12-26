@@ -7,8 +7,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
+import org.bukkit.inventory.ItemStack;
 import pl.anacode.customitems.AnacodeCustomItems;
 import pl.anacode.customitems.util.ColorUtil;
+import pl.anacode.customitems.util.TitleUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,12 +33,13 @@ public class ElytraListener implements Listener {
         ItemStack chest = p.getInventory().getChestplate();
         if (chest == null || !plugin.itemManager.isCustomItem(chest, "wzmocniona_elytra")) return;
 
-        Location from = lastLocation.getOrDefault(p.getUniqueId(), p.getLocation());
+        UUID uuid = p.getUniqueId();
+        Location from = lastLocation.getOrDefault(uuid, p.getLocation());
         double distance = e.getTo().distance(from);
 
         if (distance >= 10) {
             plugin.chargeManager.addCharge(p, 5);
-            lastLocation.put(p.getUniqueId(), e.getTo());
+            lastLocation.put(uuid, e.getTo());
         }
 
         int charge = plugin.chargeManager.getCharge(p);
@@ -45,18 +48,17 @@ public class ElytraListener implements Listener {
                 "&7Wzmocniona elytra: &b100&7% ⚡";
         p.sendActionBar(ColorUtil.component(actionbar));
 
-        // Kolizja z ziemią przy 100%
-        if (charge >= 100 && e.getTo().getY() <= e.getFrom().getY() && p.isOnGround()) {
+        if (charge >= 100 && p.isOnGround() && e.getTo().getY() <= e.getFrom().getY() + 0.1) {
             p.getWorld().strikeLightningEffect(p.getLocation());
             p.getWorld().playSound(p.getLocation(), Sound.ENTITY_LIGHTNING_BOLT_IMPACT, 2f, 0.8f);
 
             for (Player nearby : p.getLocation().getNearbyPlayers(5)) {
                 if (nearby == p) continue;
-                long last = plugin.lastElytraDamage.getOrDefault(nearby.getUniqueId(), 0L);
+                long last = plugin.weaponListener.lastElytraDamage.getOrDefault(nearby.getUniqueId(), 0L);
                 if (System.currentTimeMillis() - last < 3000) continue;
 
                 nearby.damage(16.0, p);
-                plugin.lastElytraDamage.put(nearby.getUniqueId(), System.currentTimeMillis());
+                plugin.weaponListener.lastElytraDamage.put(nearby.getUniqueId(), System.currentTimeMillis());
                 TitleUtil.sendSubtitle(nearby, "&7Gracz &f" + p.getName() + " &7wleciał &bwzmocnioną elytrą&7!");
             }
 
