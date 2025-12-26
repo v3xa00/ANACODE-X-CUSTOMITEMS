@@ -1,0 +1,10 @@
+id: sakiewka_dropu
+material: RABBIT_FOOT
+display-name: "&a&lSakiewka dropu"
+lore:
+  - '&8» &7Posiadając w ekwipunku po zabiciu'
+  - '&8» &7gracza jego przedmioty wpadają tutaj!'
+  - ''
+  - '&8» &ePrawy przycisk → otwórz sakiewkę'
+  - ''
+custom-model-data: 1
