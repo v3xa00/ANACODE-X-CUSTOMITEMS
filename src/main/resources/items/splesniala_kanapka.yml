@@ -1,0 +1,11 @@
+id: splesniala_kanapka
+material: POISONOUS_POTATO
+display-name: "&2&lSpleśniała kanapka"
+lore:
+  - '&8» &7Szkolne 2024'
+  - ''
+  - '&8» &7Glowing na 30 sekund'
+  - ''
+custom-model-data: 53
+subtitle-attacker: "&7Zakaziłeś gracza &f%victim% &4spleśniałą kanapką&7!"
+subtitle-victim: "&7Zostałeś zakażony &4spleśniałą kanapką&7!"
