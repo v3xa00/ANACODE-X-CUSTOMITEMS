@@ -1,0 +1,9 @@
+id: cieple_mleko
+material: BOWL
+display-name: "&9&lCiepłe Mleko"
+lore:
+  - '&8» &7Święta 2024'
+  - ''
+  - '&8» &7Usuwa wszystkie negatywne efekty'
+  - ''
+custom-model-data: 43634712
