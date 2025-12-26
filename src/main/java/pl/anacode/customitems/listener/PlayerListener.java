@@ -8,8 +8,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.inventory.ItemStack;
 import pl.anacode.customitems.AnacodeCustomItems;
-import pl.anacode.customitems.manager.ChargeManager;
-import pl.anacode.customitems.util.ColorUtil;
+import pl.anacode.customitems.util.TitleUtil;
 
 public class PlayerListener implements Listener {
 
@@ -26,19 +25,31 @@ public class PlayerListener implements Listener {
         ItemStack item = e.getItem();
         if (item == null) return;
 
-        // Wampirze jabłko
-        if (plugin.itemManager.isCustomItem(item, "wampirze_jablko")) {
+        if (plugin.itemManager.isCustomItem(item, "krew_wampira")) {
             e.setCancelled(true);
-            p.getInventory().setItemInMainHand(null);
+            double maxHealth = p.getAttribute(org.bukkit.attribute.Attribute.GENERIC_MAX_HEALTH).getValue();
+            p.setHealth(maxHealth);
             TitleUtil.sendSubtitle(p, "&7Zostałeś uleczony!");
             item.setAmount(item.getAmount() - 1);
             return;
         }
 
-        // Ciepłe mleko
         if (plugin.itemManager.isCustomItem(item, "cieple_mleko")) {
             e.setCancelled(true);
-            // usuwanie negatywnych efektów – pełna lista
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.CONFUSION);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.HARM);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.HUNGER);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.POISON);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.SLOW_DIGGING);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.SLOW);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.WEAKNESS);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.WITHER);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.GLOWING);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.SLOW_FALLING);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.BLINDNESS);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.DARKNESS);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.LEVITATION);
+            p.removePotionEffect(org.bukkit.potion.PotionEffectType.BAD_OMEN);
             item.setAmount(item.getAmount() - 1);
         }
     }
