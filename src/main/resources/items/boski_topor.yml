@@ -1,0 +1,13 @@
+id: boski_topor
+material: IRON_AXE
+display-name: "&b&lBoski topór"
+lore:
+  - '&8» &7Wydarzenie specjalne 2025'
+  - ''
+  - '&8» &73 sekundy pełnej nieśmiertelności'
+  - ''
+custom-model-data: 3462232
+unbreakable: true
+cooldown: 60
+subtitle-user: "&7Aktywowałeś &bboski topór&7!"
+subtitle-nearby: "&7Gracz &f%player% &7użył &bboski topór&7!"
