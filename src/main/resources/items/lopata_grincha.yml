@@ -1,0 +1,13 @@
+id: lopata_grincha
+material: DIAMOND_SHOVEL
+display-name: "&a&lŁopata grincha"
+lore:
+  - '&8» &7Święta 2024'
+  - ''
+  - '&8» &7Losowa rotacja + freeze 1s'
+  - ''
+custom-model-data: 4572321
+unbreakable: true
+cooldown: 15
+subtitle-attacker: "&7Zamroziłeś gracza &f%victim% &ałopatą grincza&7!"
+subtitle-victim: "&7Zostałeś zamrożony &ałopatą grincza&7!"
