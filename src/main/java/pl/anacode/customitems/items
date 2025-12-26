@@ -35,7 +35,7 @@ public class CustomItem {
     public boolean matches(ItemStack item) {
         if (item == null || !item.hasItemMeta()) return false;
         ItemMeta meta = item.getItemMeta();
-        if (meta == null) return null;
+        if (meta == null) return false;
         String itemId = meta.getPersistentDataContainer().get(KEY, PersistentDataType.STRING);
         return id.equals(itemId);
     }
