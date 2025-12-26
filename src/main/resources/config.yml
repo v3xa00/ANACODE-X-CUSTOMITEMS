@@ -1,0 +1,44 @@
+# AnacodeCustomItems Configuration
+# Plugin by Anacode for anarchia.gg
+
+# Wersja konfiguracji (nie zmieniaj)
+config-version: 1
+
+# Ustawienia pluginu
+settings:
+  # Czy pokazywać wiadomości debugowania w konsoli
+  debug: false
+  
+  # Język wiadomości
+  language: pl
+
+# Ustawienia GUI
+gui:
+  # Tytuł GUI z itemami eventowymi
+  title: "&7Itemy Eventowe"
+  # Rozmiar GUI (9, 18, 27, 36, 45, 54)
+  size: 54
+
+# Ustawienia cooldownów (w sekundach)
+# Możesz tu nadpisać domyślne cooldowny itemów
+cooldowns:
+  wedka_surferka: 15
+  siekiera_grincha: 60
+  marchewkowy_miecz: 60
+  marchewkowa_kusza: 60
+  zajeczy_miecz: 60
+  smoczy_miecz: 60
+  sniezka_zamiany: 60
+  wedka_nielota: 30
+  parawan: 15
+  boski_topor: 60
+  zatruty_olowek: 60
+  lopata_grincha: 15
+  kostka_rubika: 60
+
+# Zablokowane regiony WorldGuard dla Bombardy Maxima
+blocked-regions:
+  - spawn
+  - liniapvp
+  - end
+  - netherspawnpvp
