@@ -1,0 +1,10 @@
+id: anarchiczny_miecz
+material: NETHERITE_SWORD
+display-name: "&4&lAnarchiczny miecz"
+lore: {}
+custom-model-data: 0
+enchantments:
+  SHARPNESS: 6
+  FIRE_ASPECT: 2
+  UNBREAKABLE: 3
+flags: {}
