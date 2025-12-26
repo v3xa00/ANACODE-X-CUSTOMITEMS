@@ -1,0 +1,14 @@
+id: lizak
+material: ALLIUM
+display-name: "&d&lLizak"
+lore:
+  - '&8» &7Przedmiot zdobyty w &fdzień dziecka&7!'
+  - '&8» &7Trzymaj go w ręce aby otrzymywać:'
+  - ' &8- &fEfekt SIŁY 1'
+  - ''
+custom-model-data: 1
+held-effect:
+  type: INCREASE_DAMAGE
+  amplifier: 0
+  duration: 30
+  refresh-rate: 10
