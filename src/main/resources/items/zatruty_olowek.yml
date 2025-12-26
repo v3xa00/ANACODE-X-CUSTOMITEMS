@@ -1,0 +1,16 @@
+id: zatruty_olowek
+material: LIME_CANDLE
+display-name: "&a&lZatruty ołówek"
+lore:
+  - '&8» &7Szkolne 2024'
+  - ''
+  - '&8» &7Poison I + Weakness I na 15s'
+  - ''
+custom-model-data: 14
+unbreakable: true
+flags:
+  - HIDE_UNBREAKABLE
+  - HIDE_PLACEMENT
+cooldown: 60
+subtitle-attacker: "&7Zatrułeś gracza &f%victim%&7!"
+subtitle-victim: "&7Zostałeś zatruty &azakażonym ołówkiem&7!"
