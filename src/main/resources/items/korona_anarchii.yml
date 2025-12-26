@@ -1,0 +1,24 @@
+id: korona_anarchii
+material: GOLDEN_HELMET
+display-name: "&6Korona ANARCHII"
+lore:
+  - ''
+  - '&8» &eTen przedmiot jest wyjątkowy!'
+  - '&8» &7Na serwerze znajduje się tylko jedna'
+  - '&8» &7taka korona!'
+  - ' '
+  - '&8» &eStałe efekty:'
+  - ' &8- &fSzybkość II • Siła II • Odporność III'
+  - ' &8- &fOdporność na ogień • Szczęście I'
+  - ''
+custom-model-data: 1
+unbreakable: true
+held-effects:
+  - SPEED:1
+  - INCREASE_DAMAGE:1
+  - DAMAGE_RESISTANCE:2
+  - FIRE_RESISTANCE:0
+  - LUCK:0
+flags:
+  - HIDE_ENCHANTS
+  - HIDE_UNBREAKABLE
