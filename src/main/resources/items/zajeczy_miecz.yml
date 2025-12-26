@@ -1,0 +1,18 @@
+id: zajeczy_miecz
+material: NETHERITE_SWORD
+display-name: "&3&lZajęczy miecz"
+lore:
+  - ''
+  - '&8» &7Jest to przedmiot z wydarzenia'
+  - '&8» &fwielkanocnego 2024'
+  - ''
+  - '&8» &7Po uderzeniu blokuje skakanie na 4 sekundy!'
+  - ''
+custom-model-data: 2
+enchantments:
+  SHARPNESS: 6
+  FIRE_ASPECT: 2
+  UNBREAKING: 3
+flags:
+  - HIDE_ENCHANTS
+cooldown: 60
